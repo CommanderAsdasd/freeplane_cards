@@ -1,0 +1,1 @@
+c.findAll().collect{ if (it.getDetails()) { card = it; print it.getText(); print it.getDetails()}  }
